@@ -25,12 +25,10 @@ class AlienInvasion:
                     sys.exit()
 
             # Make the most recently drawn screeen visible.
-            pygame.display.flip()
+            pygame.display.filp()
             self.clock.tick(60)
 
 if __name__ == '__main__':
     # Make a game instancem and run the game.
     ai = AlienInvasion()
     ai.run_game()
-
-    
